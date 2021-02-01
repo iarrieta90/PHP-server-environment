@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    width: 40%;
+    
+}
+
+form label {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0 20px;
+    height: 45px;
+    padding: 10px;
+}
