@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 }
 
 $username = $_SESSION['username'];
-$url = "index.php"; 
+$url = "close_session.php"; 
 echo "<p>Hello $username </p>";
 echo "<a href='$url'>Close session</a>";
 
