@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
-    <form method="POST" action="validate.php">
+    <form method="POST" action="./validate.php">
         <label for="username">Username</label>
         <input type="text" name="username"/>
         <label for="password">Password</label>
